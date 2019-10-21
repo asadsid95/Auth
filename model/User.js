@@ -1,5 +1,5 @@
 const mongoose = require("mongoose")
-const Schema = mongoose.Schema()
+const Schema = mongoose.Schema
 
 //Create a Schema for user
 
@@ -29,7 +29,7 @@ const userSchema = new Schema({
 })
 
 //Export the schema as a model
-const User = mongoose.Model("User", userSchema)
+const User = mongoose.model("User", userSchema)
 
 //using Node, export a module which will be based on User
 module.exports = User
