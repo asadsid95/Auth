@@ -45,3 +45,8 @@ Carrying on from 17/10/2019:
             - Then we also create and assign a token using the _id of the user account as payload, and a secret key. This code is then placed in the RESPONSE’s header under the key ‘auth-token’
 
 - Don’t forget about looking into user validation (for /register & /login)
+
+
+01/12/2019:
+- Created route with GET request to obtain data on economic indicators from Canada Gov't
+- Website: https://api.canada.ca/en/homepage
